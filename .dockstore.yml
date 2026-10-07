@@ -1,0 +1,6 @@
+version: 1.2
+workflows:
+  - name: hello_terra
+    subclass: WDL
+    primaryDescriptorPath: /hello_terra.wdl
+    publish: true
